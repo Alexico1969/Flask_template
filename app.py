@@ -3,7 +3,7 @@ from os import getenv, environ
 from flask import Flask, render_template, session, request, redirect, url_for, g
 
 
-app = Flask(__name__)
+app=Flask(__name__, static_url_path='/static')
 
 app.secret_key = 'Bruce Wayne is Batman'
 
