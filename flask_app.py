@@ -13,11 +13,11 @@ def home_page():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-   pass
+   return "login"
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
-   pass
+   return "signup"
 
 @app.route('/logout')
 def logout():
